@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Launcher", "Launcher\Launcher.csproj", "{7EC0DECB-3B30-4B20-B7A3-C1CE99AF2C85}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Launcher.LayoutEditor", "Launcher.LayoutEditor\Launcher.LayoutEditor.csproj", "{8F30A00D-1C72-4B70-AB6A-4D89CE801C64}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{7EC0DECB-3B30-4B20-B7A3-C1CE99AF2C85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7EC0DECB-3B30-4B20-B7A3-C1CE99AF2C85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7EC0DECB-3B30-4B20-B7A3-C1CE99AF2C85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F30A00D-1C72-4B70-AB6A-4D89CE801C64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F30A00D-1C72-4B70-AB6A-4D89CE801C64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F30A00D-1C72-4B70-AB6A-4D89CE801C64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F30A00D-1C72-4B70-AB6A-4D89CE801C64}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
