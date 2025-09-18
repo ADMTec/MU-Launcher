@@ -72,6 +72,8 @@
     <Compile Include="IniParser\Parser\IniDataParser.cs" />
     <Compile Include="IniParser\StreamIniDataParser.cs" />
     <Compile Include="IniParser\StringIniParser.cs" />
+    <Compile Include="Layout\LayoutDefinition.cs" />
+    <Compile Include="Layout\LayoutRuntime.cs" />
     <Compile Include="Opcoes.cs">
       <SubType>Form</SubType>
     </Compile>

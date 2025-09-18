@@ -1,0 +1,19 @@
+<layout basePath="assets">
+  <form width="990" height="560" background="backgrounds/main.png" transparency="#FF00FF" caption="Autoupdate" showIcon="false" />
+  <control name="Status" type="Label" x="176" y="503" width="42" height="14" text="Status" foreColor="#FFFFFF" backColor="Transparent" font="Tahoma,8.75,Regular" autoSize="true" />
+  <control name="pictureBox1" type="PictureBox" x="840" y="503" width="146" height="53" backgroundLayout="Stretch" />
+  <control name="pictureBox2" type="PictureBox" x="968" y="3" width="18" height="18" />
+  <control name="pictureBox3" type="PictureBox" x="947" y="3" width="18" height="18" />
+  <control name="pictureBox4" type="PictureBox" x="818" y="541" width="16" height="15" />
+  <control name="label1" type="Label" x="760" y="543" width="52" height="13" text="Winmode" foreColor="#B0C4DE" backColor="Transparent" font="Tahoma,8,Regular" />
+  <control name="label2" type="Label" x="26" y="3" width="86" height="14" text="MU Launcher" foreColor="#B0C4DE" backColor="Transparent" font="Tahoma,9,Bold" />
+  <control name="CopyRightLabel" type="Label" x="108" y="543" width="136" height="14" text="Coded by MyHeart (RZ)" foreColor="#808080" backColor="Transparent" font="Tahoma,8.3,Regular" />
+  <control name="webBrowser1" type="WebBrowser" x="5" y="23" width="979" height="475" />
+  <control name="pictureBox5" type="PictureBox" x="179" y="524" width="619" height="11" backgroundLayout="Stretch" />
+  <control name="pictureBox6" type="PictureBox" x="179" y="524" width="0" height="11" sizeMode="StretchImage" />
+  <imageButton target="pictureBox1" normal="buttons/start_normal.png" hover="buttons/start_hover.png" pressed="buttons/start_pressed.png" disabled="buttons/start_disabled.png" blink="buttons/start_blink.png" />
+  <imageButton target="pictureBox2" normal="buttons/exit_normal.png" hover="buttons/exit_hover.png" pressed="buttons/exit_pressed.png" />
+  <imageButton target="pictureBox3" normal="buttons/options_normal.png" hover="buttons/options_hover.png" pressed="buttons/options_pressed.png" />
+  <toggleButton target="pictureBox4" unchecked="buttons/window_unchecked.png" checked="buttons/window_checked.png" hover="buttons/window_hover.png" />
+  <dynamicButton name="SampleButton" x="32" y="520" width="140" height="28" normal="buttons/sample_normal.png" hover="buttons/sample_hover.png" pressed="buttons/sample_pressed.png" action="OpenUrl" argument="https://example.com" visible="false" />
+</layout>

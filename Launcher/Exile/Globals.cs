@@ -5,6 +5,7 @@
 // Assembly location: D:\NDev\NNTeam\nDev\launcher\Net 4.0\Launcher.exe
 
 using System.Collections.Generic;
+using Launcher.Layout;
 
 namespace Launcher.Exile
 {
@@ -19,6 +20,7 @@ namespace Launcher.Exile
         public static List<Globals.File> Files = new List<Globals.File>();
         public static List<string> OldFiles = new List<string>();
         public static pForm pForm;
+        public static LayoutRuntimeContext LayoutContext;
         public static long fullSize;
         public static long completeSize;
 
