@@ -11,6 +11,7 @@ using System.Drawing.Drawing2D;
 using System.IO;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
+using Launcher.Layout;
 
 namespace Launcher.Exile
 {
@@ -68,6 +69,11 @@ namespace Launcher.Exile
             Globals.pForm.pictureBox4.Enabled = true;
             Globals.pForm.pictureBox1.Cursor = Cursors.Hand;
             Globals.EnableStartBTN = true;
+            if (Globals.LayoutContext != null)
+            {
+                Globals.LayoutContext.SetState("pictureBox1", SkinVisualState.Normal);
+                Globals.LayoutContext.SetState("pictureBox3", SkinVisualState.Normal);
+            }
         }
 
         public static Image ResizeImage(Image source, int Width, int Height, int dx, int dy)

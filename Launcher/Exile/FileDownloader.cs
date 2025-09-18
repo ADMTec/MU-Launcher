@@ -4,6 +4,7 @@
 // MVID: D4AA755B-F045-4A12-838C-6A7934E8D46E
 // Assembly location: D:\NDev\NNTeam\nDev\launcher\Net 4.0\Launcher.exe
 
+using Launcher.Layout;
 using Launcher.Properties;
 using System;
 using System.ComponentModel;
@@ -26,13 +27,19 @@ namespace Launcher.Exile
             if (Globals.OldFiles.Count <= 0)
             {
                 Common.ChangeStatus("CHECKCOMPLETE");
-                Globals.pForm.pictureBox1.BackgroundImage = (Image)Resources.start_1;
+                if (Globals.LayoutContext == null || !Globals.LayoutContext.SetState("pictureBox1", SkinVisualState.Normal))
+                {
+                    Globals.pForm.pictureBox1.BackgroundImage = (Image)Resources.start_1;
+                }
                 Common.EnableStart();
             }
             else if (FileDownloader.curFile >= Globals.OldFiles.Count)
             {
                 Common.ChangeStatus("DOWNLOADCOMPLETE");
-                Globals.pForm.pictureBox1.BackgroundImage = (Image)Resources.start_1;
+                if (Globals.LayoutContext == null || !Globals.LayoutContext.SetState("pictureBox1", SkinVisualState.Normal))
+                {
+                    Globals.pForm.pictureBox1.BackgroundImage = (Image)Resources.start_1;
+                }
                 Common.EnableStart();
             }
             else
